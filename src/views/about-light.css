@@ -1,0 +1,709 @@
+.animate {
+  animation: transitionIn 1.15s;
+}
+@keyframes transitionIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-light-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.about-light-intro-info {
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  width: 528.1625366210938px;
+  height: 115px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-light-text {
+  color: var(--dl-color-gray-500);
+  opacity: 0.1;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-light-text1 {
+  top: 20px;
+  color: var(--dl-color-gray-white);
+  position: absolute;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-light-text2 {
+  color: #666666;
+}
+.about-light-text3 {
+  color: #666666;
+}
+.about-light-text4 {
+  color: var(--dl-color-primary-500);
+}
+.about-light-sidenavbardark {
+  top: 0px;
+  right: 2.5%;
+  width: 179px;
+  bottom: 0px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-light-home {
+  top: 0px;
+  right: 0px;
+  width: 170px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-light-homebtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-light-homebtn:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.about-light-navlink {
+  display: contents;
+}
+.about-light-icon {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-light-navlink1 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 135px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 20px;
+  border-width: 0px;
+  padding-left: 22px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-light-navlink1:hover {
+  color: #ffffff;
+  background-color: var(--dl-color-primary-500);
+  text-decoration: none;
+}
+.about-light-about {
+  top: 80px;
+  right: 0px;
+  width: 170px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-light-aboutbtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-500);
+}
+.about-light-aboutbtn:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.about-light-navlink2 {
+  display: contents;
+}
+.about-light-icon2 {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-light-navlink3 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 140px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 19px;
+  border-width: 0px;
+  padding-left: 20px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-light-navlink3:hover {
+  color: #ffffff;
+  background-color: var(--dl-color-primary-500);
+  text-decoration: none;
+}
+.about-light-portfolio {
+  top: 160px;
+  right: 0px;
+  width: 205px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-light-portfoliobtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-light-portfoliobtn:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.about-light-navlink4 {
+  display: contents;
+}
+.about-light-icon4 {
+  top: -4px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-light-navlink5 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 175px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 19px;
+  border-width: 0px;
+  padding-left: 22px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-light-navlink5:hover {
+  color: #ffffff;
+  background-color: var(--dl-color-primary-500);
+  text-decoration: none;
+}
+.about-light-contact {
+  top: 240px;
+  right: 0px;
+  width: 205px;
+  bottom: 0px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-light-contactbtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-light-contactbtn:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.about-light-navlink6 {
+  display: contents;
+}
+.about-light-icon6 {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-light-navlink7 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 175px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 19px;
+  border-width: 0px;
+  padding-left: 24px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-light-navlink7:hover {
+  color: #ffffff;
+  background-color: var(--dl-color-primary-500);
+  text-decoration: none;
+}
+.about-light-navlink8 {
+  display: contents;
+}
+.about-light-dark {
+  top: 12px;
+  right: 2.5%;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: fixed;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-500);
+}
+.about-light-dark:hover {
+  background-color: var(--dl-color-gray-black);
+}
+.about-light-moon {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 30px;
+  bottom: 0px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+}
+@media (max-width: 1200px) {
+  .about-light-container {
+    background-color: var(--dl-color-gray-white);
+  }
+  .about-light-intro-info {
+    top: 0px;
+    height: 81px;
+  }
+  .about-light-text {
+    font-size: 75px;
+  }
+  .about-light-text1 {
+    font-size: 40px;
+  }
+  .about-light-sidenavbardark {
+    height: 225px;
+  }
+  .about-light-home {
+    top: 15px;
+    width: 140px;
+  }
+  .about-light-homebtn {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(89, 89, 89, 0.59);
+  }
+  .about-light-navlink1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 11px;
+  }
+  .about-light-about {
+    top: 70px;
+    width: 140px;
+  }
+  .about-light-aboutbtn {
+    width: 40px;
+    height: 40px;
+    background-color: var(--dl-color-primary-500);
+  }
+  .about-light-navlink3 {
+    width: 100%;
+    height: 100%;
+    padding-top: 11px;
+  }
+  .about-light-portfolio {
+    top: 125px;
+    width: 165px;
+  }
+  .about-light-portfoliobtn {
+    width: 40px;
+    height: 40px;
+  }
+  .about-light-navlink5 {
+    color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .about-light-contact {
+    top: 180px;
+    width: 160px;
+  }
+  .about-light-contactbtn {
+    width: 40px;
+    height: 40px;
+  }
+  .about-light-navlink7 {
+    width: 100%;
+    height: 100%;
+    padding-top: 11px;
+  }
+  .about-light-dark {
+    top: -44%;
+    right: 0%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .about-light-moon {
+    width: 27px;
+    height: 27px;
+  }
+}
+@media (max-width: 991px) {
+  .about-light-text {
+    font-size: 45px;
+  }
+  .about-light-text1 {
+    top: 13px;
+    font-size: 20px;
+  }
+  .about-light-sidenavbardark {
+    width: 40px;
+    height: 164px;
+  }
+  .about-light-home {
+    top: 25px;
+    width: 100%;
+  }
+  .about-light-homebtn {
+    width: 30px;
+    height: 30px;
+  }
+  .about-light-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .about-light-navlink1 {
+    display: none;
+  }
+  .about-light-about {
+    top: 70px;
+    width: 100%;
+  }
+  .about-light-aboutbtn {
+    width: 30px;
+    height: 30px;
+  }
+  .about-light-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .about-light-navlink3 {
+    display: none;
+  }
+  .about-light-portfolio {
+    top: 115px;
+    width: 100%;
+  }
+  .about-light-portfoliobtn {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(89, 89, 89, 0.59);
+  }
+  .about-light-icon4 {
+    top: -1px;
+    width: 20px;
+    height: 20px;
+  }
+  .about-light-navlink5 {
+    display: none;
+  }
+  .about-light-contact {
+    top: 160px;
+    width: 100%;
+  }
+  .about-light-contactbtn {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(89, 89, 89, 0.59);
+  }
+  .about-light-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+  .about-light-navlink7 {
+    display: none;
+  }
+  .about-light-dark {
+    top: -40%;
+    width: 30px;
+    height: 30px;
+  }
+  .about-light-moon {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .about-light-intro-info {
+    width: 329px;
+    height: 35px;
+  }
+  .about-light-text {
+    font-size: 30px;
+  }
+  .about-light-text1 {
+    top: 8px;
+    font-size: 15px;
+  }
+  .about-light-sidenavbardark {
+    height: 139px;
+  }
+  .about-light-homebtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-light-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .about-light-about {
+    top: 60px;
+  }
+  .about-light-aboutbtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-light-icon2 {
+    width: 15px;
+    height: 15px;
+  }
+  .about-light-portfolio {
+    top: 95px;
+  }
+  .about-light-portfoliobtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-light-icon4 {
+    top: -1px;
+    width: 15px;
+    height: 15px;
+  }
+  .about-light-contact {
+    top: 130px;
+  }
+  .about-light-contactbtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-light-icon6 {
+    width: 15px;
+    height: 15px;
+  }
+  .about-light-dark {
+    top: -33%;
+    width: 23px;
+    height: 23px;
+  }
+  .about-light-moon {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 479px) {
+  .about-light-intro-info {
+    top: 0px;
+    width: 141px;
+    height: 21px;
+  }
+  .about-light-text {
+    font-size: 20px;
+  }
+  .about-light-text1 {
+    top: 5px;
+    font-size: 10px;
+  }
+  .about-light-sidenavbardark {
+    width: 19px;
+    height: 123px;
+  }
+  .about-light-home {
+    top: 30px;
+    height: 15px;
+  }
+  .about-light-homebtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-light-icon {
+    width: 7px;
+    height: 8px;
+  }
+  .about-light-about {
+    top: 50px;
+    height: 15px;
+  }
+  .about-light-aboutbtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-light-icon2 {
+    left: 0px;
+    right: 0px;
+    width: 7px;
+    bottom: 1px;
+    height: 8px;
+    margin: auto;
+  }
+  .about-light-portfolio {
+    top: 70px;
+    height: 15px;
+  }
+  .about-light-portfoliobtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-light-icon4 {
+    width: 7px;
+    height: 8px;
+  }
+  .about-light-contact {
+    top: 90px;
+    height: 13px;
+  }
+  .about-light-contactbtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-light-icon6 {
+    top: 1px;
+    width: 7px;
+    height: 8px;
+  }
+  .about-light-dark {
+    top: -6%;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+  }
+  .about-light-moon {
+    width: 8px;
+    height: 8px;
+  }
+}

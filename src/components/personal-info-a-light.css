@@ -1,0 +1,400 @@
+.personal-info-a-light-personal-info {
+  width: 570px;
+  height: 178px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.personal-info-a-light-main {
+  top: 0px;
+  left: 0px;
+  color: #666666;
+  position: absolute;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.personal-info-a-light-name {
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  bottom: 100px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.personal-info-a-light-text {
+  color: var(--dl-color-gray-700);
+}
+.personal-info-a-light-text01 {
+  color: #393e46;
+}
+.personal-info-a-light-text02 {
+  color: #666666;
+}
+.personal-info-a-light-freelance {
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  bottom: 50px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.personal-info-a-light-text03 {
+  color: var(--dl-color-gray-700);
+}
+.personal-info-a-light-text04 {
+  color: #666666;
+}
+.personal-info-a-light-email {
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  bottom: 0px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.personal-info-a-light-text05 {
+  color: var(--dl-color-gray-700);
+}
+.personal-info-a-light-text06 {
+  color: #393e46;
+}
+.personal-info-a-light-text07 {
+  color: #666666;
+}
+.personal-info-a-light-nationality {
+  left: 310px;
+  color: var(--dl-color-gray-white);
+  bottom: 100px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.personal-info-a-light-text08 {
+  color: var(--dl-color-gray-700);
+}
+.personal-info-a-light-text09 {
+  color: #666666;
+}
+.personal-info-a-light-phone {
+  left: 310px;
+  color: var(--dl-color-gray-white);
+  bottom: 50px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.personal-info-a-light-text10 {
+  color: var(--dl-color-gray-700);
+}
+.personal-info-a-light-text11 {
+  color: #666666;
+}
+.personal-info-a-light-text12 {
+  color: var(--dl-color-gray-white);
+}
+.personal-info-a-light-language {
+  left: 310px;
+  color: var(--dl-color-gray-700);
+  bottom: 0px;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.personal-info-a-light-text14 {
+  color: #393e46;
+}
+.personal-info-a-light-text15 {
+  color: #666666;
+}
+.personal-info-a-light-text16 {
+  color: #666666;
+}
+.personal-info-a-light-download-cv {
+  top: 125%;
+  flex: 0 0 auto;
+  left: -2px;
+  width: 215px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-primary-500);
+  border-width: 2px;
+  padding-left: 0px;
+  border-radius: 40px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  justify-content: center;
+  background-color: transparent;
+}
+.personal-info-a-light-download-cv:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.personal-info-a-light-cv {
+  top: 0px;
+  left: 0px;
+  color: #666666;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 14px;
+  border-width: 0px;
+  padding-left: 22px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-top-right-radius: 40;
+  border-bottom-right-radius: 40;
+}
+.personal-info-a-light-cv:hover {
+  color: var(--dl-color-gray-white);
+  padding-top: 14px;
+  background-color: var(--dl-color-primary-500);
+}
+.personal-info-a-light-download {
+  top: 0px;
+  flex: 0 0 auto;
+  right: -1px;
+  width: 50px;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: flex-end;
+  background-color: var(--dl-color-primary-500);
+}
+.personal-info-a-light-icon {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  right: 14px;
+  width: 20px;
+  bottom: 0px;
+  height: 20px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+}
+.personal-info-a-light-root-class-name {
+  top: 250px;
+  left: 3%;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .personal-info-a-light-personal-info {
+    top: 120px;
+    left: 4%;
+    width: 303px;
+    height: 248px;
+  }
+  .personal-info-a-light-name {
+    bottom: 170px;
+  }
+  .personal-info-a-light-freelance {
+    bottom: 140px;
+  }
+  .personal-info-a-light-email {
+    bottom: 110px;
+  }
+  .personal-info-a-light-nationality {
+    left: 0px;
+    bottom: 80px;
+  }
+  .personal-info-a-light-phone {
+    left: 0px;
+    bottom: 50px;
+  }
+  .personal-info-a-light-language {
+    left: 0px;
+    bottom: 20px;
+  }
+  .personal-info-a-light-download-cv {
+    top: 110%;
+  }
+}
+@media(max-width: 991px) {
+  .personal-info-a-light-personal-info {
+    top: 90px;
+    left: 6%;
+    height: 149px;
+  }
+  .personal-info-a-light-main {
+    font-size: 18px;
+  }
+  .personal-info-a-light-name {
+    bottom: 100px;
+    font-size: 12px;
+  }
+  .personal-info-a-light-freelance {
+    bottom: 80px;
+    font-size: 12px;
+  }
+  .personal-info-a-light-email {
+    bottom: 60px;
+    font-size: 12px;
+  }
+  .personal-info-a-light-nationality {
+    bottom: 40px;
+    font-size: 12px;
+  }
+  .personal-info-a-light-phone {
+    bottom: 20px;
+    font-size: 12px;
+  }
+  .personal-info-a-light-language {
+    bottom: 0px;
+    font-size: 12px;
+  }
+  .personal-info-a-light-download-cv {
+    top: 115%;
+    width: 150px;
+    height: 30px;
+    border-width: 1px;
+  }
+  .personal-info-a-light-cv {
+    top: 7px;
+    left: 15px;
+    position: static;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-left: 15px;
+  }
+  .personal-info-a-light-download {
+    width: 30px;
+    height: 30px;
+  }
+  .personal-info-a-light-icon {
+    right: 7px;
+    width: 17px;
+    height: 17px;
+  }
+}
+@media(max-width: 767px) {
+  .personal-info-a-light-personal-info {
+    top: 47px;
+    height: 126px;
+  }
+  .personal-info-a-light-main {
+    font-size: 12px;
+  }
+  .personal-info-a-light-name {
+    bottom: 95px;
+    font-size: 8px;
+  }
+  .personal-info-a-light-freelance {
+    bottom: 75px;
+    font-size: 8px;
+  }
+  .personal-info-a-light-email {
+    bottom: 55px;
+    font-size: 8px;
+  }
+  .personal-info-a-light-nationality {
+    bottom: 35px;
+    font-size: 8px;
+  }
+  .personal-info-a-light-phone {
+    bottom: 15px;
+    font-size: 8px;
+  }
+  .personal-info-a-light-language {
+    bottom: -4px;
+    font-size: 8px;
+  }
+  .personal-info-a-light-download-cv {
+    top: 115%;
+    width: 90px;
+    height: 20px;
+    border-width: 1px;
+  }
+  .personal-info-a-light-cv {
+    top: 6px;
+    left: 8px;
+    font-size: 7px;
+    padding-top: 5.5px;
+    padding-left: 9px;
+  }
+  .personal-info-a-light-download {
+    width: 20px;
+    height: 20px;
+  }
+  .personal-info-a-light-icon {
+    right: 4px;
+    width: 12px;
+    height: 12px;
+  }
+}
+@media(max-width: 479px) {
+  .personal-info-a-light-personal-info {
+    top: 35px;
+    left: 3%;
+    width: 139px;
+    height: 73px;
+  }
+  .personal-info-a-light-main {
+    font-size: 7.5px;
+  }
+  .personal-info-a-light-name {
+    bottom: 50px;
+    font-size: 6px;
+  }
+  .personal-info-a-light-freelance {
+    bottom: 40px;
+    font-size: 6px;
+  }
+  .personal-info-a-light-email {
+    bottom: 30px;
+    font-size: 6px;
+  }
+  .personal-info-a-light-nationality {
+    bottom: 20px;
+    font-size: 6px;
+  }
+  .personal-info-a-light-phone {
+    bottom: 10px;
+    font-size: 6px;
+  }
+  .personal-info-a-light-language {
+    bottom: 0px;
+    font-size: 6px;
+  }
+  .personal-info-a-light-download-cv {
+    width: 60px;
+    height: 15px;
+    border-width: 0.3px;
+  }
+  .personal-info-a-light-cv {
+    top: 4.5px;
+    left: 3px;
+    font-size: 5px;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 0px;
+  }
+  .personal-info-a-light-download {
+    width: 15px;
+    height: 15px;
+  }
+  .personal-info-a-light-icon {
+    width: 7px;
+  }
+}

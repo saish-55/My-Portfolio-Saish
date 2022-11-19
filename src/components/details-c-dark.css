@@ -1,0 +1,351 @@
+.details-c-dark-container {
+  width: 326.1875px;
+  height: 201.69997024536133px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-dark-contact {
+  left: 0px;
+  width: 212.23751831054688px;
+  bottom: 0px;
+  height: 50.70000076293945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-dark-contact1 {
+  top: 0px;
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-900);
+  width: auto;
+  position: absolute;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.details-c-dark-number {
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-white);
+  width: auto;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+.details-c-dark-icon {
+  top: 0px;
+  fill: #FF5F00;
+  left: 0px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.details-c-dark-e-mail {
+  top: 71px;
+  left: 0px;
+  width: 326.18751525878906px;
+  height: 50.70000076293945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-dark-email {
+  top: 5px;
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-900);
+  width: auto;
+  position: absolute;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.details-c-dark-e-address {
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-white);
+  width: auto;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.details-c-dark-icon06 {
+  top: 0px;
+  fill: #FF5F00;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.details-c-dark-address {
+  top: 0px;
+  left: 0px;
+  width: 281.8000183105469px;
+  height: 45.70000076293945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-dark-address1 {
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-white);
+  width: auto;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.details-c-dark-info {
+  top: 0px;
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-900);
+  width: auto;
+  position: absolute;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.details-c-dark-icon08 {
+  top: 0px;
+  fill: #FF5F00;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.details-c-dark-root-class-name {
+  top: 413.3000183105469px;
+  left: 5%;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .details-c-dark-contact {
+    left: 3%;
+  }
+  .details-c-dark-contact1 {
+    top: 0px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-dark-number {
+    top: 28px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-dark-icon {
+    top: 590px;
+    left: 0px;
+    bottom: 109px;
+    position: static;
+  }
+  .details-c-dark-e-mail {
+    left: 3%;
+  }
+  .details-c-dark-email {
+    top: 0px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-dark-e-address {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-dark-icon06 {
+    top: 520px;
+    left: 0px;
+    width: 42px;
+    bottom: 175px;
+    position: static;
+  }
+  .details-c-dark-address {
+    left: 3%;
+  }
+  .details-c-dark-address1 {
+    left: var(--dl-space-space-threeunits);
+  }
+  .details-c-dark-info {
+    top: 0px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-dark-icon08 {
+    top: 450px;
+    left: 0px;
+    bottom: 250px;
+    position: static;
+  }
+  .details-c-dark-root-class-name {
+    left: 3%;
+  }
+}
+@media(max-width: 991px) {
+  .details-c-dark-contact {
+    bottom: 230px;
+    height: 45px;
+  }
+  .details-c-dark-contact1 {
+    font-size: 16px;
+  }
+  .details-c-dark-number {
+    top: 25px;
+    left: 46px;
+    font-size: 16px;
+  }
+  .details-c-dark-e-mail {
+    width: 289px;
+    bottom: 300px;
+    height: 42px;
+  }
+  .details-c-dark-email {
+    font-size: 16px;
+  }
+  .details-c-dark-e-address {
+    font-size: 16px;
+  }
+  .details-c-dark-address {
+    width: 264px;
+    bottom: 370px;
+    height: 42px;
+  }
+  .details-c-dark-address1 {
+    top: var(--dl-space-space-oneandhalfunits);
+    font-size: 16px;
+  }
+  .details-c-dark-info {
+    font-size: 16px;
+  }
+  .details-c-dark-root-class-name {
+    top: 370px;
+  }
+}
+@media(max-width: 767px) {
+  .details-c-dark-contact {
+    top: -74px;
+    left: 11px;
+    position: absolute;
+  }
+  .details-c-dark-contact1 {
+    top: 5px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-dark-number {
+    top: 23px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-dark-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .details-c-dark-e-mail {
+    top: 72px;
+    left: 11px;
+    position: absolute;
+  }
+  .details-c-dark-email {
+    top: 5px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-dark-e-address {
+    top: 20px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-dark-icon06 {
+    width: 30px;
+    height: 35px;
+  }
+  .details-c-dark-address {
+    top: 1px;
+    left: 11px;
+    position: absolute;
+  }
+  .details-c-dark-address1 {
+    top: 20px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-dark-info {
+    top: 5px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-dark-icon08 {
+    width: 25px;
+    height: 25px;
+  }
+  .details-c-dark-root-class-name {
+    top: 290px;
+    left: 5%;
+  }
+}
+@media(max-width: 479px) {
+  .details-c-dark-contact {
+    bottom: 200px;
+  }
+  .details-c-dark-contact1 {
+    top: 9px;
+    left: 25px;
+    font-size: 10px;
+  }
+  .details-c-dark-number {
+    left: 24px;
+    font-size: 10px;
+  }
+  .details-c-dark-icon {
+    width: 20px;
+    height: 35px;
+  }
+  .details-c-dark-e-mail {
+    top: 59px;
+    bottom: 300px;
+  }
+  .details-c-dark-email {
+    top: 7px;
+    left: 25px;
+    font-size: 10px;
+  }
+  .details-c-dark-e-address {
+    top: 22px;
+    left: 25px;
+    bottom: 2px;
+    font-size: 10px;
+  }
+  .details-c-dark-icon06 {
+    width: 20px;
+  }
+  .details-c-dark-address {
+    top: 0px;
+    bottom: 59px;
+  }
+  .details-c-dark-address1 {
+    left: 25px;
+    bottom: 4px;
+    font-size: 10px;
+  }
+  .details-c-dark-info {
+    top: 6px;
+    left: 25px;
+    font-size: 10px;
+  }
+  .details-c-dark-icon08 {
+    width: 20px;
+  }
+  .details-c-dark-root-class-name {
+    top: 225px;
+  }
+}

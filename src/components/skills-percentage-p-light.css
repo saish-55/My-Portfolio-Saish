@@ -1,0 +1,457 @@
+.skills-percentage-p-light-skills-percentage {
+  width: 85%;
+  height: 438px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-html {
+  top: 0px;
+  left: 3%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-html1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text {
+  left: 63%;
+  color: #666666;
+  right: 0px;
+  width: 55px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-css {
+  top: 0px;
+  left: 28%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-css1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text1 {
+  left: 64%;
+  color: #666666;
+  right: 0px;
+  width: 50px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-js {
+  top: 0px;
+  left: 55%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-js1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text2 {
+  left: 48%;
+  color: #666666;
+  right: 0px;
+  width: 128px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-react-native {
+  top: 0px;
+  left: 80%;
+  right: 38px;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-react-native1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text3 {
+  left: 39%;
+  color: #666666;
+  right: 0px;
+  width: 148px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-react {
+  top: 230px;
+  left: 3%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-react1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text4 {
+  left: 45%;
+  color: #666666;
+  right: 0px;
+  width: 128px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-node {
+  top: 230px;
+  left: 28%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-nodejs {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text5 {
+  left: 45%;
+  color: #666666;
+  right: 0px;
+  width: 128px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-m-u-i {
+  top: 230px;
+  left: 55%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-m-ui1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text6 {
+  left: 68%;
+  color: #666666;
+  right: 0px;
+  width: 50px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-bootstrap {
+  top: 230px;
+  left: 80%;
+  width: 183px;
+  height: 183px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-percentage-p-light-bootstrap1 {
+  top: 0px;
+  left: 0px;
+  width: 177px;
+  height: 168px;
+  position: absolute;
+  margin-bottom: Infinitypx;
+}
+.skills-percentage-p-light-text7 {
+  left: 48%;
+  color: #666666;
+  width: 128px;
+  bottom: 0px;
+  position: absolute;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.skills-percentage-p-light-root-class-name {
+  top: 270px;
+  right: 14%;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .skills-percentage-p-light-skills-percentage {
+    right: 14%;
+    width: 850px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text {
+    left: 50%;
+  }
+  .skills-percentage-p-light-text1 {
+    left: 52%;
+  }
+  .skills-percentage-p-light-text2 {
+    left: 36.4%;
+  }
+  .skills-percentage-p-light-text3 {
+    left: 30%;
+  }
+  .skills-percentage-p-light-text4 {
+    left: 33%;
+  }
+  .skills-percentage-p-light-text5 {
+    left: 33%;
+  }
+  .skills-percentage-p-light-text6 {
+    left: 55%;
+  }
+  .skills-percentage-p-light-text7 {
+    left: 35%;
+  }
+}
+@media(max-width: 991px) {
+  .skills-percentage-p-light-skills-percentage {
+    top: 270px;
+    right: 18%;
+    width: 550px;
+    height: 948px;
+    margin: auto;
+    margin-right: auto;
+  }
+  .skills-percentage-p-light-html {
+    left: 2%;
+  }
+  .skills-percentage-p-light-text {
+    left: 35%;
+  }
+  .skills-percentage-p-light-css {
+    left: 68%;
+  }
+  .skills-percentage-p-light-text1 {
+    left: 38%;
+  }
+  .skills-percentage-p-light-js {
+    top: 250px;
+    left: 2%;
+  }
+  .skills-percentage-p-light-text2 {
+    left: 20%;
+  }
+  .skills-percentage-p-light-react-native {
+    top: 250px;
+    left: 68%;
+  }
+  .skills-percentage-p-light-text3 {
+    left: 13%;
+  }
+  .skills-percentage-p-light-react {
+    top: 500px;
+    left: 2%;
+    bottom: 0px;
+  }
+  .skills-percentage-p-light-text4 {
+    left: 15%;
+  }
+  .skills-percentage-p-light-node {
+    top: 500px;
+    left: 68%;
+  }
+  .skills-percentage-p-light-text5 {
+    left: 15%;
+  }
+  .skills-percentage-p-light-m-u-i {
+    top: 750px;
+    left: 2%;
+  }
+  .skills-percentage-p-light-text6 {
+    left: 37%;
+  }
+  .skills-percentage-p-light-bootstrap {
+    top: 750px;
+    left: 68%;
+  }
+  .skills-percentage-p-light-text7 {
+    left: 20%;
+  }
+  .skills-percentage-p-light-root-class-name {
+    right: 17%;
+  }
+}
+@media(max-width: 767px) {
+  .skills-percentage-p-light-skills-percentage {
+    left: -75px;
+    right: 0px;
+    width: 361px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text1 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text2 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text3 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text4 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+  }
+  .skills-percentage-p-light-text5 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+  }
+  .skills-percentage-p-light-text6 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .skills-percentage-p-light-text7 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+}
+@media(max-width: 479px) {
+  .skills-percentage-p-light-skills-percentage {
+    top: 190px;
+    left: 0px;
+    right: 0px;
+    width: 182px;
+    height: 1936px;
+    margin: auto;
+    background-color: transparent;
+  }
+  .skills-percentage-p-light-text {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-css {
+    top: 250px;
+    left: 2%;
+  }
+  .skills-percentage-p-light-text1 {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-js {
+    top: 500px;
+  }
+  .skills-percentage-p-light-text2 {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-react-native {
+    top: 750px;
+    left: 2%;
+  }
+  .skills-percentage-p-light-text3 {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-react {
+    top: 1000px;
+  }
+  .skills-percentage-p-light-text4 {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-node {
+    top: 1250px;
+    left: 2%;
+  }
+  .skills-percentage-p-light-text5 {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-m-u-i {
+    top: 1500px;
+  }
+  .skills-percentage-p-light-text6 {
+    font-size: 18px;
+  }
+  .skills-percentage-p-light-bootstrap {
+    top: 1750px;
+    left: 2%;
+  }
+  .skills-percentage-p-light-text7 {
+    font-size: 18px;
+  }
+}

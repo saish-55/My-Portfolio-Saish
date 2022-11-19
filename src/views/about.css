@@ -1,0 +1,709 @@
+.animate {
+  animation: transitionIn 1.15s;
+}
+@keyframes transitionIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #100f0f;
+}
+.about-intro-info {
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  width: 528.1625366210938px;
+  height: 115px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-text {
+  color: var(--dl-color-gray-700);
+  opacity: 0.1;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-text1 {
+  top: 20px;
+  color: var(--dl-color-gray-white);
+  position: absolute;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-text2 {
+  color: var(--dl-color-gray-white);
+}
+.about-text4 {
+  color: #ff5f00;
+}
+.about-sidenavbardark {
+  top: 0px;
+  right: 2.5%;
+  width: 179px;
+  bottom: 0px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-home {
+  top: 0px;
+  right: 0px;
+  width: 170px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-homebtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-homebtn:hover {
+  background-color: #ff5f00;
+}
+.about-navlink {
+  display: contents;
+}
+.about-icon {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-navlink1 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 135px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 20px;
+  border-width: 0px;
+  padding-left: 22px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-navlink1:hover {
+  color: #ffffff;
+  background-color: #ff5f00;
+  text-decoration: none;
+}
+.about-about {
+  top: 80px;
+  right: 0px;
+  width: 170px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-aboutbtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ff5f00;
+}
+.about-aboutbtn:hover {
+  background-color: #ff5f00;
+}
+.about-navlink2 {
+  display: contents;
+}
+.about-icon2 {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-navlink3 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 140px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 19px;
+  border-width: 0px;
+  padding-left: 20px;
+  border-radius: 30px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-navlink3:hover {
+  color: #ffffff;
+  background-color: #ff5f00;
+  text-decoration: none;
+}
+.about-portfolio {
+  top: 160px;
+  right: 0px;
+  width: 205px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-portfoliobtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-portfoliobtn:hover {
+  background-color: #ff5f00;
+}
+.about-navlink4 {
+  display: contents;
+}
+.about-icon4 {
+  top: -4px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-navlink5 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 175px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 19px;
+  border-width: 0px;
+  padding-left: 22px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-navlink5:hover {
+  color: #ffffff;
+  background-color: #ff5f00;
+  text-decoration: none;
+}
+.about-contact {
+  top: 240px;
+  right: 0px;
+  width: 205px;
+  bottom: 0px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-contactbtn {
+  top: 1px;
+  right: 0px;
+  width: 54px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-contactbtn:hover {
+  background-color: #ff5f00;
+}
+.about-navlink6 {
+  display: contents;
+}
+.about-icon6 {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 24px;
+  bottom: 0px;
+  height: 24px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+  text-decoration: none;
+}
+.about-navlink7 {
+  top: 0px;
+  color: rgba(0, 0, 0, 0);
+  right: 0px;
+  width: 175px;
+  height: 55px;
+  position: absolute;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 19px;
+  border-width: 0px;
+  padding-left: 24px;
+  border-radius: 30px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+}
+.about-navlink7:hover {
+  color: #ffffff;
+  background-color: #ff5f00;
+  text-decoration: none;
+}
+.about-navlink8 {
+  display: contents;
+}
+.about-dark {
+  top: 12px;
+  right: 2.5%;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  position: fixed;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(89, 89, 89, 0.59);
+}
+.about-dark:hover {
+  background-color: var(--dl-color-gray-500);
+}
+.about-d-b-u-l-b {
+  top: 0px;
+  fill: var(--dl-color-gray-white);
+  left: 0px;
+  right: 0px;
+  width: 27px;
+  bottom: 0px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+}
+@media (max-width: 1200px) {
+  .about-container {
+    background-color: #100f0f;
+  }
+  .about-intro-info {
+    top: 0px;
+    height: 81px;
+  }
+  .about-text {
+    font-size: 75px;
+  }
+  .about-text1 {
+    font-size: 40px;
+  }
+  .about-sidenavbardark {
+    height: 225px;
+  }
+  .about-home {
+    top: 15px;
+    width: 140px;
+  }
+  .about-homebtn {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(89, 89, 89, 0.59);
+  }
+  .about-navlink1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 11px;
+  }
+  .about-about {
+    top: 70px;
+    width: 140px;
+  }
+  .about-aboutbtn {
+    width: 40px;
+    height: 40px;
+    background-color: #ff5f00;
+  }
+  .about-navlink3 {
+    width: 100%;
+    height: 100%;
+    padding-top: 11px;
+  }
+  .about-portfolio {
+    top: 125px;
+    width: 165px;
+  }
+  .about-portfoliobtn {
+    width: 40px;
+    height: 40px;
+  }
+  .about-navlink5 {
+    color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .about-contact {
+    top: 180px;
+    width: 160px;
+  }
+  .about-contactbtn {
+    width: 40px;
+    height: 40px;
+  }
+  .about-navlink7 {
+    width: 100%;
+    height: 100%;
+    padding-top: 11px;
+  }
+  .about-dark {
+    top: -44%;
+    right: 0%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+  .about-d-b-u-l-b {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .about-container {
+    background-color: #100f0f;
+  }
+  .about-text {
+    font-size: 45px;
+  }
+  .about-text1 {
+    top: 13px;
+    font-size: 20px;
+  }
+  .about-sidenavbardark {
+    width: 40px;
+    height: 164px;
+  }
+  .about-home {
+    top: 25px;
+    width: 100%;
+  }
+  .about-homebtn {
+    width: 30px;
+    height: 30px;
+  }
+  .about-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .about-navlink1 {
+    display: none;
+  }
+  .about-about {
+    top: 70px;
+    width: 100%;
+  }
+  .about-aboutbtn {
+    width: 30px;
+    height: 30px;
+  }
+  .about-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .about-navlink3 {
+    display: none;
+  }
+  .about-portfolio {
+    top: 115px;
+    width: 100%;
+  }
+  .about-portfoliobtn {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(89, 89, 89, 0.59);
+  }
+  .about-icon4 {
+    top: -1px;
+    width: 20px;
+    height: 20px;
+  }
+  .about-navlink5 {
+    display: none;
+  }
+  .about-contact {
+    top: 160px;
+    width: 100%;
+  }
+  .about-contactbtn {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(89, 89, 89, 0.59);
+  }
+  .about-icon6 {
+    width: 20px;
+    height: 20px;
+  }
+  .about-navlink7 {
+    display: none;
+  }
+  .about-dark {
+    top: -40%;
+    width: 30px;
+    height: 30px;
+  }
+  .about-d-b-u-l-b {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .about-intro-info {
+    width: 329px;
+    height: 35px;
+  }
+  .about-text {
+    font-size: 30px;
+  }
+  .about-text1 {
+    top: 8px;
+    font-size: 15px;
+  }
+  .about-sidenavbardark {
+    height: 139px;
+  }
+  .about-homebtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .about-about {
+    top: 60px;
+  }
+  .about-aboutbtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-icon2 {
+    width: 15px;
+    height: 15px;
+  }
+  .about-portfolio {
+    top: 95px;
+  }
+  .about-portfoliobtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-icon4 {
+    top: -1px;
+    width: 15px;
+    height: 15px;
+  }
+  .about-contact {
+    top: 130px;
+  }
+  .about-contactbtn {
+    width: 23px;
+    height: 23px;
+  }
+  .about-icon6 {
+    width: 15px;
+    height: 15px;
+  }
+  .about-dark {
+    top: -33%;
+    width: 23px;
+    height: 23px;
+  }
+  .about-d-b-u-l-b {
+    width: 12px;
+    height: 15px;
+  }
+}
+@media (max-width: 479px) {
+  .about-intro-info {
+    top: 0px;
+    width: 141px;
+    height: 21px;
+  }
+  .about-text {
+    font-size: 20px;
+  }
+  .about-text1 {
+    top: 5px;
+    font-size: 10px;
+  }
+  .about-sidenavbardark {
+    width: 19px;
+    height: 123px;
+  }
+  .about-home {
+    top: 30px;
+    height: 15px;
+  }
+  .about-homebtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-icon {
+    width: 7px;
+    height: 8px;
+  }
+  .about-about {
+    top: 50px;
+    height: 15px;
+  }
+  .about-aboutbtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-icon2 {
+    left: 0px;
+    right: 0px;
+    width: 7px;
+    bottom: 1px;
+    height: 8px;
+    margin: auto;
+  }
+  .about-portfolio {
+    top: 70px;
+    height: 15px;
+  }
+  .about-portfoliobtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-icon4 {
+    width: 7px;
+    height: 8px;
+  }
+  .about-contact {
+    top: 90px;
+    height: 13px;
+  }
+  .about-contactbtn {
+    width: 12px;
+    height: 12px;
+  }
+  .about-icon6 {
+    top: 1px;
+    width: 7px;
+    height: 8px;
+  }
+  .about-dark {
+    top: -6%;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+  }
+  .about-d-b-u-l-b {
+    width: 7px;
+    height: 8px;
+  }
+}

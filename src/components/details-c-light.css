@@ -1,0 +1,340 @@
+.details-c-light-container {
+  width: 326.1875px;
+  height: 201.69997024536133px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-light-contact {
+  left: 0px;
+  width: 212.23751831054688px;
+  bottom: 0px;
+  height: 50.70000076293945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-light-contact1 {
+  top: 0px;
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-700);
+  width: auto;
+  position: absolute;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.details-c-light-number {
+  left: 63.96250915527344px;
+  color: #666666;
+  width: auto;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+.details-c-light-icon {
+  top: 0px;
+  fill: var(--dl-color-primary-500);
+  left: 0px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+.details-c-light-e-mail {
+  top: 71px;
+  left: 0px;
+  width: 326.18751525878906px;
+  height: 50.70000076293945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-light-email {
+  top: 5px;
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-700);
+  width: auto;
+  position: absolute;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.details-c-light-e-address {
+  left: 63.96250915527344px;
+  color: #666666;
+  width: auto;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.details-c-light-icon06 {
+  top: 0px;
+  fill: var(--dl-color-primary-500);
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.details-c-light-address {
+  top: 0px;
+  left: 0px;
+  width: 281.8000183105469px;
+  height: 45.70000076293945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-c-light-address1 {
+  left: 63.96250915527344px;
+  color: #666666;
+  width: auto;
+  bottom: 0px;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.details-c-light-info {
+  top: 0px;
+  left: 63.96250915527344px;
+  color: var(--dl-color-gray-700);
+  width: auto;
+  position: absolute;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.details-c-light-icon08 {
+  top: 0px;
+  fill: var(--dl-color-primary-500);
+  left: 0px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+.details-c-light-root-class-name {
+  top: 413.3000183105469px;
+  left: 5%;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .details-c-light-contact {
+    left: 3%;
+  }
+  .details-c-light-contact1 {
+    top: 0px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-light-number {
+    top: 28px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-light-icon {
+    top: 590px;
+    left: 0px;
+    bottom: 109px;
+    position: static;
+  }
+  .details-c-light-e-mail {
+    left: 3%;
+  }
+  .details-c-light-email {
+    top: 0px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-light-e-address {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-light-icon06 {
+    top: 520px;
+    left: 0px;
+    width: 42px;
+    bottom: 175px;
+    position: static;
+  }
+  .details-c-light-address {
+    left: 3%;
+  }
+  .details-c-light-address1 {
+    left: var(--dl-space-space-threeunits);
+  }
+  .details-c-light-info {
+    top: 0px;
+    left: var(--dl-space-space-threeunits);
+    position: absolute;
+  }
+  .details-c-light-icon08 {
+    top: 450px;
+    left: 0px;
+    bottom: 250px;
+    position: static;
+  }
+  .details-c-light-root-class-name {
+    left: 3%;
+  }
+}
+@media(max-width: 991px) {
+  .details-c-light-contact {
+    bottom: 230px;
+    height: 45px;
+  }
+  .details-c-light-contact1 {
+    font-size: 16px;
+  }
+  .details-c-light-number {
+    top: 25px;
+    left: 46px;
+    font-size: 16px;
+  }
+  .details-c-light-e-mail {
+    width: 289px;
+    bottom: 300px;
+    height: 42px;
+  }
+  .details-c-light-email {
+    font-size: 16px;
+  }
+  .details-c-light-e-address {
+    font-size: 16px;
+  }
+  .details-c-light-address {
+    width: 264px;
+    bottom: 370px;
+    height: 42px;
+  }
+  .details-c-light-address1 {
+    top: var(--dl-space-space-oneandhalfunits);
+    font-size: 16px;
+  }
+  .details-c-light-info {
+    font-size: 16px;
+  }
+  .details-c-light-root-class-name {
+    top: 370px;
+  }
+}
+@media(max-width: 767px) {
+  .details-c-light-contact {
+    left: 11px;
+    bottom: 220px;
+  }
+  .details-c-light-contact1 {
+    top: 5px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-light-number {
+    top: 23px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-light-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .details-c-light-e-mail {
+    top: 59px;
+    left: 11px;
+    position: absolute;
+  }
+  .details-c-light-email {
+    top: 5px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-light-e-address {
+    top: 20px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-light-icon06 {
+    width: 30px;
+    height: 35px;
+  }
+  .details-c-light-address {
+    left: 11px;
+    bottom: 59px;
+    position: absolute;
+  }
+  .details-c-light-address1 {
+    top: 20px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-light-info {
+    top: 5px;
+    left: var(--dl-space-space-twounits);
+    font-size: 12px;
+  }
+  .details-c-light-icon08 {
+    width: 25px;
+    height: 25px;
+  }
+  .details-c-light-root-class-name {
+    top: 290px;
+    left: 5%;
+  }
+}
+@media(max-width: 479px) {
+  .details-c-light-contact1 {
+    top: 9px;
+    left: 25px;
+    font-size: 10px;
+  }
+  .details-c-light-number {
+    left: 24px;
+    font-size: 10px;
+  }
+  .details-c-light-icon {
+    width: 20px;
+    height: 35px;
+  }
+  .details-c-light-email {
+    top: 7px;
+    left: 25px;
+    font-size: 10px;
+  }
+  .details-c-light-e-address {
+    top: 22px;
+    left: 25px;
+    bottom: 2px;
+    font-size: 10px;
+  }
+  .details-c-light-icon06 {
+    width: 20px;
+  }
+  .details-c-light-address1 {
+    left: 25px;
+    bottom: 4px;
+    font-size: 10px;
+  }
+  .details-c-light-info {
+    top: 6px;
+    left: 25px;
+    font-size: 10px;
+  }
+  .details-c-light-icon08 {
+    width: 20px;
+  }
+  .details-c-light-root-class-name {
+    top: 225px;
+    right: -22px;
+  }
+}
