@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -74,7 +75,9 @@ const PersonalInfoALight = (props) => {
         <span className="personal-info-a-light-text16">di</span>
       </span>
       <div className="personal-info-a-light-download-cv button">
-        <span className="personal-info-a-light-cv button">{props.Cv}</span>
+        <Link to="/resume" className="personal-info-a-light-cv button">
+          {props.Cv}
+        </Link>
         <div className="personal-info-a-light-download">
           <svg
             viewBox="0 0 950.8571428571428 1024"
@@ -94,7 +97,7 @@ const PersonalInfoALight = (props) => {
 PersonalInfoALight.defaultProps = {
   Main: 'Personal infos',
   rootClassName: '',
-  Cv: 'download cv',
+  Cv: 'Preview Resume',
 }
 
 PersonalInfoALight.propTypes = {

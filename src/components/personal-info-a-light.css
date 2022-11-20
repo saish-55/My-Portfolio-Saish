@@ -142,6 +142,7 @@
 }
 .personal-info-a-light-download-cv:hover {
   background-color: var(--dl-color-primary-500);
+  text-decoration: none;
 }
 .personal-info-a-light-cv {
   top: 0px;
@@ -156,17 +157,18 @@
   font-weight: 700;
   padding-top: 14px;
   border-width: 0px;
-  padding-left: 22px;
+  padding-left: 13px;
   border-radius: 40px;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: transparent;
   border-top-right-radius: 40;
   border-bottom-right-radius: 40;
 }
 .personal-info-a-light-cv:hover {
   color: var(--dl-color-gray-white);
-  padding-top: 14px;
   background-color: var(--dl-color-primary-500);
+  text-decoration: none;
 }
 .personal-info-a-light-download {
   top: 0px;
@@ -276,7 +278,7 @@
     position: static;
     font-size: 12px;
     padding-top: 7px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
   .personal-info-a-light-download {
     width: 30px;
@@ -330,8 +332,8 @@
     top: 6px;
     left: 8px;
     font-size: 7px;
-    padding-top: 5.5px;
-    padding-left: 9px;
+    padding-top: 5.3px;
+    padding-left: 6px;
   }
   .personal-info-a-light-download {
     width: 20px;
@@ -380,14 +382,14 @@
   .personal-info-a-light-download-cv {
     width: 60px;
     height: 15px;
-    border-width: 0.3px;
+    border-width: 0.7px;
   }
   .personal-info-a-light-cv {
     top: 4.5px;
     left: 3px;
-    font-size: 5px;
-    padding-top: 5px;
-    padding-left: 4px;
+    font-size: 4.5px;
+    padding-top: 4.5px;
+    padding-left: 3.2px;
     padding-right: 0px;
   }
   .personal-info-a-light-download {

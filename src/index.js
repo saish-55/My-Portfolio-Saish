@@ -11,6 +11,7 @@ import PortfolioLight from "./views/portfolio-light";
 import Contact from "./views/contact";
 import ContactLight from "./views/contact-light";
 import Portfolio from "./views/portfolio";
+import Resume from "./views/resume";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route component={Contact} exact path="/contact" />
         <Route component={ContactLight} exact path="/contact-light" />
         <Route component={Portfolio} exact path="/portfolio" />
+        <Route component={Resume} exact path="/resume" />
       </div>
     </Router>
   );

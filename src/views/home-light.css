@@ -194,6 +194,7 @@
 }
 .home-light-aboutbtn:hover {
   background-color: var(--dl-color-primary-500);
+  text-decoration: none;
 }
 .home-light-navlink02 {
   display: contents;
@@ -264,6 +265,7 @@
 }
 .home-light-portfoliobtn:hover {
   background-color: var(--dl-color-primary-500);
+  text-decoration: none;
 }
 .home-light-navlink04 {
   display: contents;
@@ -489,6 +491,7 @@
   background-color: var(--dl-color-primary-500);
   border-top-right-radius: 40;
   border-bottom-right-radius: 40;
+  text-decoration: none;
 }
 .home-light-iconcointainer {
   top: 0px;
@@ -513,6 +516,7 @@
 }
 .home-light-navlink09 {
   display: contents;
+  text-decoration: none;
 }
 .home-light-arrow {
   top: 0px;

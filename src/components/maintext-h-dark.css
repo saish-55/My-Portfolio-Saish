@@ -80,6 +80,7 @@
 }
 .maintext-h-dark-more-b-t-n:hover {
   background-color: #ff5f00;
+  text-decoration: none;
 }
 .maintext-h-dark-moreabtme {
   top: var(--dl-space-space-unit);
