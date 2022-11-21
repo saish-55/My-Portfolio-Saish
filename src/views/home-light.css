@@ -1060,6 +1060,11 @@
   .home-light-homeimg {
     width: 100%;
     height: 404px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
   }
   .home-light-tabletmodel {
     top: 30%;
@@ -1237,6 +1242,11 @@
   .home-light-homeimg {
     width: 100%;
     height: 200px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
   }
   .home-light-widemodel {
     left: 2%;
